@@ -1740,6 +1740,11 @@ function isArray(arg) {
 }
 ```
 
+补充：可以用instanceof方法
+```
+var abc = [1,2,3];
+abc.instanceof Array //true
+
 ### 请评价以下事件监听器代码并给出改进意见
 
 ```
